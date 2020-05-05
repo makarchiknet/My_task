@@ -8,7 +8,7 @@ const appData = {
    optionalExpenses: {},
    income: [],
    savings: false
-}
+};
 
 let spending = prompt("Введите обязательную статью расходов в этом месяце", ""),
    amount = +prompt("Во сколько обойдется?", "");
